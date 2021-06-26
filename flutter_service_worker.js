@@ -28,14 +28,14 @@ const RESOURCES = {
 "assets/assets/sql.png": "b102bdc2d378b2c753bb483ff7044f64",
 "assets/assets/whatsapp.png": "61c52a3836ef11485942f67875269a3c",
 "assets/FontManifest.json": "7b2a36307916a9721811788013e65289",
-"assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
-"assets/NOTICES": "c8d03fb664c8670699f7392d47ef4962",
+"assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
+"assets/NOTICES": "34e2408b05cf7cf2e8fa942367196266",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "286b1b99f5281702e8a3bd143f2b6ad8",
-"/": "286b1b99f5281702e8a3bd143f2b6ad8",
-"main.dart.js": "f863d4cde5831b4fabd168f97f063920",
+"index.html": "ed07f50ed18a6a4666feabaea4a42cf7",
+"/": "ed07f50ed18a6a4666feabaea4a42cf7",
+"main.dart.js": "a3424a46e20cf6a9eaf94d3e2255dfde",
 "manifest.json": "75721181c830e84b9d2b33e7c2b97e0a",
 "version.json": "426313f2f3133c2f20415344c4a22df3"
 };
@@ -55,7 +55,7 @@ self.addEventListener("install", (event) => {
   return event.waitUntil(
     caches.open(TEMP).then((cache) => {
       return cache.addAll(
-        CORE.map((value) => new Request(value + '?revision=' + RESOURCES[value], {'cache': 'reload'})));
+        CORE.map((value) => new Request(value, {'cache': 'reload'})));
     })
   );
 });
