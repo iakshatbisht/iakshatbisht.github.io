@@ -68503,7 +68503,7 @@ r=T.cM(M.U(p,E.aiG(T.bz(H.b([M.U(p,q.G0(b,m),C.h,p,p,p,p,p,new V.F(0,l*0.017,0,0
 G0:function(a,b){var s=null
 return new M.ci(2.66,L.aQ("Flutter Application Developer,\nfrom Uttar Pradesh, India",s,s,s,B.bM(s,20,s,s,3),C.aa,s),"left",s)},
 G_:function(a){var s=null,r=a.K(t.w).f.a.a
-return new M.ci(2.99,L.aQ("Hello! I am Akshat Bisht, a fresher in IT industry.\n\nHaving good knowledge of Flutter, Dart and Android; i enjoy creating applications that can become your virtual friend. I am currently pursuing my Bachelor's Degree in Computer Science and Engineering from Guru Gobind Singh Indraprastha University (GGSIPU).\nWorking experience in Integrating Firebase with Flutter.\nA self-Motivated professional Skilled at balancing and prioritizing tasks to meet deadline, excellent technological, analytical and ability to learn quickly and apply new technologies.",s,s,s,B.bM(C.M,r<700?18:r*0.012,s,s,3),s,s),"left",s)},
+return new M.ci(2.99,L.aQ("Hello! I am Akshat Bisht, a fresher in IT industry.\n\nCurrently living the life of a Software Developer at Hashedin By Deloitte. Completed my Bachelor's Degree in Computer Science and Engineering from Guru Gobind Singh Indraprastha University (GGSIPU).\nTill now, gained a fair knowledge in Angular, Springboot and GCP.\nApart from this, I have good knowledge of Flutter, Dart and Android; i enjoy creating applications that can become your virtual friend.\nA self-Motivated professional Skilled at balancing and prioritizing tasks to meet deadline, excellent technological, analytical and ability to learn quickly and apply new technologies.",s,s,s,B.bM(C.M,r<700?18:r*0.012,s,s,3),s,s),"left",s)},
 xv:function(a,b,c,d){var s,r,q=null,p=H.aj(c).i("at<1,cj*>"),o=P.aF(new H.at(c,new A.Su(this,a),p),!0,p.i("b5.E"))
 p=b.a<700
 s=p?new V.F(0,12,0,0):new V.F(0,0,0,0)
@@ -68540,7 +68540,7 @@ A.agu.prototype={
 $0:function(){var s=0,r=P.a8(t.P)
 var $async$$0=P.a2(function(a,b){if(a===1)return P.a5(b,r)
 while(true)switch(s){case 0:s=2
-return P.aa(T.oq("https://drive.google.com/file/d/1RwlmvA6FXTRaHjzCTnrXB4MZyj73xomF/view?usp=sharing"),$async$$0)
+return P.aa(T.oq("https://drive.google.com/file/d/1gLczEEs4WbHtaR8okCRLGkhCCWjdsin4/view?usp=sharing"),$async$$0)
 case 2:return P.a6(null,r)}})
 return P.a7($async$$0,r)},
 $S:27}
