@@ -28,16 +28,20 @@ const RESOURCES = {
 "assets/assets/sql.png": "b102bdc2d378b2c753bb483ff7044f64",
 "assets/assets/whatsapp.png": "61c52a3836ef11485942f67875269a3c",
 "assets/FontManifest.json": "7b2a36307916a9721811788013e65289",
-"assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
-"assets/NOTICES": "34e2408b05cf7cf2e8fa942367196266",
+"assets/fonts/MaterialIcons-Regular.otf": "7e7a6cccddf6d7b20012a548461d5d81",
+"assets/NOTICES": "fac16fcc7808aeac3cdb0e484fb59c57",
+"canvaskit/canvaskit.js": "c2b4e5f3d7a3d82aed024e7249a78487",
+"canvaskit/canvaskit.wasm": "4b83d89d9fecbea8ca46f2f760c5a9ba",
+"canvaskit/profiling/canvaskit.js": "ae2949af4efc61d28a4a80fffa1db900",
+"canvaskit/profiling/canvaskit.wasm": "95e736ab31147d1b2c7b25f11d4c32cd",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "36d8194abff08c0fc85c86bdb8f9298f",
-"/": "36d8194abff08c0fc85c86bdb8f9298f",
-"main.dart.js": "7ac2c74693806ef721750be8c36a91e7",
+"index.html": "8713dbce5f20e75ab6467401b2b8f4a1",
+"/": "8713dbce5f20e75ab6467401b2b8f4a1",
+"main.dart.js": "bb026be62f5bac7e7b90c7f3f3390d37",
 "manifest.json": "75721181c830e84b9d2b33e7c2b97e0a",
-"version.json": "426313f2f3133c2f20415344c4a22df3"
+"version.json": "009c9e65172e010890f7f65fde438006"
 };
 
 // The application shell files that are downloaded before a service worker can
