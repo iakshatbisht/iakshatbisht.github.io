@@ -5,45 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66c4c894-20ab-43d2-92a1-331d9a754e30" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvaskit/canvaskit.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvaskit/canvaskit.wasm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvaskit/profiling/canvaskit.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvaskit/profiling/canvaskit.wasm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/AssetManifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/FontManifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/NOTICES" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/assets/aboutMe.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/assets/akclima.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/assets/android.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/assets/bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/assets/bmi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/assets/bomberman.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/assets/c++.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/assets/c.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/assets/cinemaque.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/assets/dart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/assets/firebase.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/assets/flutter.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/assets/galaxy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/assets/github.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/assets/instagram-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/assets/java.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/assets/leet-code.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/assets/linked-in-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/assets/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/assets/prof.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/assets/resume.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/assets/sql.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/assets/whatsapp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/fonts/MaterialIcons-Regular.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/Icon-192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/Icon-512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/NOTICES" beforeDir="false" afterPath="$PROJECT_DIR$/assets/NOTICES" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flutter_service_worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_service_worker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.dart.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.dart.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +30,9 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="c5ed5458-3b36-4083-aa86-98a071cf7410" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -81,9 +50,14 @@
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../portfolio/resume-template" />
-    <property name="settings.editor.selected.configurable" value="emulator" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\akbisht\IdeaProjects\FlutterProject\iakshatbisht.github.io" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
