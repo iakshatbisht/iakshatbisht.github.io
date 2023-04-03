@@ -13032,7 +13032,7 @@ _.d=d
 _.e=e
 _.f=f},
 TL:function TL(){},
-tk(a,b,c,d,e,f,g,h){return new A.An(f,a,c,g,h,d,b,!0,null)},
+tk(a,b,c,d,e,f,g,h,i){return new A.An(f,a,c,g,h,d,b,i,!0,null)},
 Ap(a){var s=a.mI(t.Np)
 if(s!=null)return s
 throw A.b(A.JJ(A.a([A.r9("Scaffold.of() called with a context that does not contain a Scaffold."),A.bo("No Scaffold ancestor could be found starting from the context that was passed to Scaffold.of(). This usually happens when the context provided is from the same StatefulWidget as that whose build function actually creates the Scaffold widget being sought."),A.a2X('There are several ways to avoid this problem. The simplest is to use a Builder to get a context that is "under" the Scaffold. For an example of this, please see the documentation for Scaffold.of():\n  https://api.flutter.dev/flutter/material/Scaffold/of.html'),A.a2X("A more efficient solution is to split your build function into several widgets. This introduces a new context from which you can obtain the Scaffold. In this solution, you would have an outer widget that creates the Scaffold populated by instances of your new inner widgets, and then in these inner widgets you would use Scaffold.of().\nA less elegant but more expedient solution is assign a GlobalKey to the Scaffold, then use the key.currentState property to obtain the ScaffoldState rather than using the Scaffold.of() function."),a.aec("The context used was")],t.Q)))},
@@ -13126,7 +13126,7 @@ _.b=c
 _.c=null},
 ajL:function ajL(a,b){this.a=a
 this.b=b},
-An:function An(a,b,c,d,e,f,g,h,i){var _=this
+An:function An(a,b,c,d,e,f,g,h,i,j){var _=this
 _.d=a
 _.e=b
 _.f=c
@@ -13134,8 +13134,9 @@ _.r=d
 _.w=e
 _.at=f
 _.ch=g
-_.fx=h
-_.a=i},
+_.cy=h
+_.fx=i
+_.a=j},
 tl:function tl(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p){var _=this
 _.d=a
 _.e=b
@@ -52170,8 +52171,8 @@ a59(){var s,r=this.c
 r.toString
 s=A.zv(r)
 if(s!=null&&s.d.length!==0)s.hO(0,B.BA,B.dG)},
-gnP(){this.a.toString
-return!0},
+gnP(){var s=this.a.cy
+return s!==!1},
 aw(){var s,r=this,q=null
 r.aJ()
 s=r.c
@@ -52228,75 +52229,68 @@ Ig(a,b,c,d,e,f,g,h){return this.zV(a,b,c,d,!1,e,f,g,h)},
 IF(a,b){var s=this,r=s.a.at
 if(r!=null)s.nt(a,new A.x0(r,B.o4,s.ga19(),B.ag,null,!0,null,s.x.y,s.e),B.hc,!1,b===B.v,b===B.W,!1)},
 IE(a,b){this.a.toString},
-G(a){var s,r,q,p,o,n,m,l,k,j,i,h=this,g=null,f={},e=a.K(t.w).f,d=A.a8(a),c=a.K(t.I)
-c.toString
-s=c.w
-r=A.a([],t.s9)
-c=h.a
-q=c.d
-p=c.f
-c=c.e
-h.gnP()
-h.Zt(r,new A.PA(new A.mr(p,h.f),!1,q,g),B.ha,!0,!1,!1,!1,c!=null)
-if(h.dy)h.nt(r,new A.rM(h.fr,!1,g,!0,g,g),B.he,!0,!0,!0,!0)
-c=h.a.e
-if(c!=null){c=h.r=A.aEO(a,c.go)+e.f.b
-q=h.a.e
-q.toString
-h.nt(r,new A.f2(new A.al(0,1/0,0,c),new A.xk(1,c,c,c,g,q,g),g),B.hb,!0,!1,!1,!1)}f.a=!1
-f.b=null
-if(h.at!=null||h.as.length!==0){c=A.av(h.as,!0,t.l7)
-q=h.at
-if(q!=null)c.push(q.a)
-o=A.hh(B.hl,c,B.L,B.bg)
-h.gnP()
-h.nt(r,o,B.hf,!0,!1,!1,!0)}c=h.z
-if(c!=null){c.a.gakk()
+G(a){var s,r,q,p,o,n,m,l,k,j,i=this,h=null,g={},f=a.K(t.w).f,e=A.a8(a),d=a.K(t.I)
 d.toString
-f.a=!1
-c=h.z
-if(c!=null){c=c.a
-c.gbJ(c)}f.b=d.eq.w
-c=h.z
-c=c==null?g:c.a
-h.a.toString
-h.gnP()
-h.Ig(r,c,B.du,!1,!1,!1,!1,!0)}f.c=!1
-if(h.Q!=null){a.K(t.iB)
-n=A.a8(a).rx
-c=h.Q
-q=c==null
-if(!q)c.a.toString
-m=n.f
-f.c=(m==null?0:m)!==0
-c=q?g:c.a
-q=h.a.e
-h.gnP()
-h.Ig(r,c,B.hg,!1,!0,!1,!1,q!=null)}c=h.a
-c.toString
-q=h.ch
+s=d.w
+r=A.a([],t.s9)
+d=i.a
+q=d.d
+p=d.f
+d=d.e
+i.Zt(r,new A.PA(new A.mr(p,i.f),!1,q,h),B.ha,i.gnP(),!1,!1,!1,d!=null)
+if(i.dy)i.nt(r,new A.rM(i.fr,!1,h,!0,h,h),B.he,!0,!0,!0,!0)
+d=i.a.e
+if(d!=null){d=i.r=A.aEO(a,d.go)+f.f.b
+q=i.a.e
+q.toString
+i.nt(r,new A.f2(new A.al(0,1/0,0,d),new A.xk(1,d,d,d,h,q,h),h),B.hb,!0,!1,!1,!1)}g.a=!1
+g.b=null
+if(i.at!=null||i.as.length!==0){d=A.av(i.as,!0,t.l7)
+q=i.at
+if(q!=null)d.push(q.a)
+i.nt(r,A.hh(B.hl,d,B.L,B.bg),B.hf,i.gnP(),!1,!1,!0)}d=i.z
+if(d!=null){d.a.gakk()
+e.toString
+g.a=!1
+d=i.z
+if(d!=null){d=d.a
+d.gbJ(d)}g.b=e.eq.w
+d=i.z
+d=d==null?h:d.a
+i.a.toString
+i.Ig(r,d,B.du,!i.gnP(),!1,!1,!1,!0)}g.c=!1
+if(i.Q!=null){a.K(t.iB)
+o=A.a8(a).rx
+d=i.Q
+q=d==null
+if(!q)d.a.toString
+n=o.f
+g.c=(n==null?0:n)!==0
+d=q?h:d.a
+q=i.a.e
+i.Ig(r,d,B.hg,!i.gnP(),!0,!1,!1,q!=null)}d=i.a
+d.toString
+q=i.ch
 q===$&&A.c()
-p=h.CW
+p=i.CW
 p===$&&A.c()
-l=h.dx
+m=i.dx
+m===$&&A.c()
+l=i.db
 l===$&&A.c()
-k=h.db
-k===$&&A.c()
-h.nt(r,new A.CI(c.r,q,p,l,k,g),B.hh,!0,!0,!0,!0)
-switch(d.r){case B.n:case B.p:h.nt(r,A.ij(B.aQ,g,B.ag,!0,g,g,g,g,g,g,g,g,g,g,h.ga58(),g,g,g,g,g,g),B.hd,!0,!1,!1,!0)
+i.nt(r,new A.CI(d.r,q,p,m,l,h),B.hh,!0,!0,!0,!0)
+switch(e.r){case B.n:case B.p:i.nt(r,A.ij(B.aQ,h,B.ag,!0,h,h,h,h,h,h,h,h,h,h,i.ga58(),h,h,h,h,h,h),B.hd,!0,!1,!1,!0)
 break
 case B.o:case B.r:case B.t:case B.u:break
-default:throw A.b(A.j(u.I))}if(h.x.y){h.IE(r,s)
-h.IF(r,s)}else{h.IF(r,s)
-h.IE(r,s)}h.gnP()
-c=e.e.d
-j=e.f.wz(c)
-h.gnP()
-c=c!==0?0:g
-i=e.r.wz(c)
-if(j.d<=0)h.a.toString
-c=h.a.ch
-return new A.Us(!1,new A.Aw(A.jB(B.a4,!0,g,new A.cQ(new A.abJ(f,h,!1,j,i,s,r),g,h.ch,g),B.f,c,0,g,g,g,g,g,B.cZ),g),g)}}
+default:throw A.b(A.j(u.I))}if(i.x.y){i.IE(r,s)
+i.IF(r,s)}else{i.IF(r,s)
+i.IE(r,s)}d=i.gnP()?f.e.d:0
+k=f.f.wz(d)
+d=i.gnP()&&f.e.d!==0?0:h
+j=f.r.wz(d)
+if(k.d<=0)i.a.toString
+d=i.a.ch
+return new A.Us(!1,new A.Aw(A.jB(B.a4,!0,h,new A.cQ(new A.abJ(g,i,!1,k,j,s,r),h,i.ch,h),B.f,d,0,h,h,h,h,h,B.cZ),h),h)}}
 A.abF.prototype={
 $0(){this.a.x.zO(0,this.b)},
 $S:0}
@@ -82192,7 +82186,7 @@ A.PZ.prototype={
 aw(){this.aJ()
 this.r=!1},
 G(a){var s=this,r=null,q="left",p=a.K(t.w).f.a,o=p.b,n=o*0.1,m=t.t,l=t.oZ
-l=A.ad(r,A.hd(A.a([A.dh(A.ad(r,A.H6(A.ad(r,A.bz(A.a([new A.cb(2.3,A.aW("What can I help you with?",r,r,r,A.bE(r,20,r,r,r,r),r,r),q,r),A.cL(r,8,r),A.wt(12,12,s.d,1,4," Name ",B.xW),A.wt(12,12,s.e,1,4," Your Email Address ",B.xV),A.wt(12,12,s.f,5,4," Your Query ",B.mj),A.cL(r,4,r)],m),B.J,B.c3,B.z,B.C),B.f,r,r,r,r,r,new A.P(n,0,n,0),new A.P(0,o*0.04,0,o*0.02),r,r,r),r,4,new A.P(28,12,28,12)),B.f,r,r,r,r,r,r,r,r,r,r),1),A.ad(r,r,B.f,A.aw(204,0,0,0),r,r,r,r,new A.P(28,0,28,0),r,r,r,4),A.dh(A.bz(A.a([new A.lW(new A.aiR(s,a),"Send message",r),A.cL(r,20,r),new A.cb(2.3,A.aW("OR".toUpperCase(),r,r,r,A.bE(r,20,r,r,r,r),r,r),q,r),A.cL(r,20,r),A.hd(A.a([s.uB("https://www.instagram.com/iakshatbisht/","Instagram",A.a([B.uW,B.uX],l),"assets/instagram-logo.png"),s.uB(u.X,"Linked In",A.a([B.bQ,B.bQ],l),"assets/linked-in-logo.png"),s.uB("https://github.com/iakshatbisht","Github",A.a([B.m,B.m],t.it),"assets/github.png"),s.uB("https://leetcode.com/AkshatBisht/","Leetcode",A.a([B.e4,B.e4],l),"assets/leet-code.png")],m),B.J,B.cv,B.z),new A.cb(2.3,A.aW("Connect With Me",r,r,r,A.bE(r,20,r,r,r,r),r,r),q,r),A.cL(r,28,r)],m),B.J,B.cv,B.z,B.C),1)],m),B.J,B.c3,B.z),B.f,r,r,r,r,r,r,new A.P(20,20,20,20),r,r,r)
+l=A.ad(r,A.hd(A.a([A.dh(A.ad(r,A.H6(A.ad(r,A.bz(A.a([new A.cb(2.3,A.aW("What can I help you with?",r,r,r,A.bE(r,20,r,r,r,r),r,r),q,r),A.cL(r,8,r),A.wt(12,12,s.d,1,4," Name ",B.xW),A.wt(12,12,s.e,1,4," Your Email Address ",B.xV),A.wt(12,12,s.f,5,4," Your Query ",B.mj),A.cL(r,4,r)],m),B.J,B.c3,B.z,B.C),B.f,r,r,r,r,r,new A.P(n,0,n,0),new A.P(0,o*0.04,0,o*0.02),r,r,r),r,4,new A.P(28,0,28,0)),B.f,r,r,r,r,r,r,r,r,r,r),1),A.ad(r,r,B.f,A.aw(204,0,0,0),r,r,r,r,new A.P(28,20,28,20),r,r,r,4),A.dh(A.bz(A.a([new A.lW(new A.aiR(s,a),"Send message",r),A.cL(r,20,r),new A.cb(2.3,A.aW("OR".toUpperCase(),r,r,r,A.bE(r,20,r,r,r,r),r,r),q,r),A.cL(r,20,r),A.hd(A.a([s.uB("https://www.instagram.com/iakshatbisht/","Instagram",A.a([B.uW,B.uX],l),"assets/instagram-logo.png"),s.uB(u.X,"Linked In",A.a([B.bQ,B.bQ],l),"assets/linked-in-logo.png"),s.uB("https://github.com/iakshatbisht","Github",A.a([B.m,B.m],t.it),"assets/github.png"),s.uB("https://leetcode.com/AkshatBisht/","Leetcode",A.a([B.e4,B.e4],l),"assets/leet-code.png")],m),B.J,B.cv,B.z),new A.cb(2.3,A.aW("Connect With Me",r,r,r,A.bE(r,20,r,r,r,r),r,r),q,r),A.cL(r,28,r)],m),B.J,B.cv,B.z,B.C),1)],m),B.J,B.c3,B.z),B.f,r,r,r,r,r,r,new A.P(0,20,0,0),r,r,r)
 if(s.r===!0){n=$.ec()
 n=A.aw(B.d.b9(127.5),n.gm(n)>>>16&255,n.gm(n)>>>8&255,n.gm(n)&255)
 o=A.ad(r,A.hr(A.avZ(),r,r),B.f,n,r,r,r,o,r,r,r,r,p.a)}else o=A.ad(r,r,B.f,r,r,r,r,r,r,r,r,r,r)
@@ -82420,7 +82414,7 @@ l=A.j1(50)
 k=A.vU(B.a0,B.au,2)
 m=A.agr(B.G,A.ad(h,A.xR(!1,!0,A.hr(A.aW("Connect With Me",h,h,h,A.bE(h,h,h,h,A.d3(h,h,i.d,h,h,h,h,h,h,h,h,25,h,h,h,h,h,!0,h,h,h,h,h,h,h,h),h),h,h),h,h),h,!0,h,h,h,h,h,h,h,new A.alm(i),h,i.gab_(),h,h,h,h,h,h,h),B.f,h,h,new A.bH(n,h,k,l,h,h,B.ae),h,70,new A.P(0,0,0,30),new A.P(5,5,5,5),h,h,250),h,m)
 n=m}else n=A.ad(h,h,B.f,h,h,h,h,h,h,h,h,h,h)
-return A.tk(new A.vL(q,p,r,s,new A.TD(h,h,1/0,56),h),B.y,new A.da(new A.aln(i,f),o,h,t.MB),new A.u_(e,new A.Jb(d,h),h),!0,!0,n,B.Ag)},
+return A.tk(new A.vL(q,p,r,s,new A.TD(h,h,1/0,56),h),B.y,new A.da(new A.aln(i,f),o,h,t.MB),new A.u_(e,new A.Jb(d,h),h),!0,!0,n,B.Ag,h)},
 k(){this.YB()
 this.r.k()},
 ab0(){this.a6(new A.alb(this))
@@ -82533,7 +82527,7 @@ $.ko[r]=B.y}}}},
 $S:2}
 A.L1.prototype={
 G(a){var s=null
-return A.tk(s,B.y,A.ad(s,new A.GS(s),B.f,s,s,s,s,s,s,s,s,s,s),s,!0,!1,s,s)}}
+return A.tk(s,B.y,A.ad(s,new A.GS(s),B.f,s,s,s,s,s,s,s,s,s,s),s,!0,!1,s,s,!1)}}
 A.Fz.prototype={
 bk(){this.c8()
 this.bX()
@@ -89735,7 +89729,7 @@ q($,"aP5","aBB",()=>B.AO)
 q($,"aPm","iX",()=>{var p=$.ec()
 return A.a([p,p,p,p,p,p],t.it)})
 q($,"aTs","vm",()=>{var p=null,o=A.yJ(new A.L1(p),new A.ar4(),""),n=$.ec()
-return A.a([o,A.yJ(A.tk(p,n,new A.Gf(p),p,!0,!1,p,p),new A.ar5(),"About"),A.yJ(A.tk(p,B.nQ,new A.Nx(p),p,!0,!1,p,p),new A.ar6(),"Skills"),A.yJ(A.tk(p,n,new A.Mc(p),p,!0,!1,p,p),new A.ar7(),"Projects"),A.yJ(A.tk(p,B.nQ,new A.MP(p),p,!0,!1,p,p),new A.ar8(),"Resume"),A.yJ(A.tk(p,n,A.bz(A.a([A.dh(new A.I7(p),1),new A.JR(p)],t.t),B.J,B.Hf,B.z,B.C),p,!0,!1,p,p),new A.ar9(),"Contact")],A.a9("t<KW*>"))})
+return A.a([o,A.yJ(A.tk(p,n,new A.Gf(p),p,!0,!1,p,p,p),new A.ar5(),"About"),A.yJ(A.tk(p,B.nQ,new A.Nx(p),p,!0,!1,p,p,p),new A.ar6(),"Skills"),A.yJ(A.tk(p,n,new A.Mc(p),p,!0,!1,p,p,p),new A.ar7(),"Projects"),A.yJ(A.tk(p,B.nQ,new A.MP(p),p,!0,!1,p,p,p),new A.ar8(),"Resume"),A.yJ(A.tk(p,n,A.bz(A.a([A.dh(new A.I7(p),1),new A.JR(p)],t.t),B.J,B.Hf,B.z,B.C),p,!0,!1,p,p,p),new A.ar9(),"Contact")],A.a9("t<KW*>"))})
 q($,"aTB","ava",()=>{var p=t.i
 return A.a([A.zw("A chatting application built with Flutter-dart. It has end-to-end chat feature via streams.It supports end-to-end user chat encryption. Users here can send messages, images, GIFs, etc. The application also supports video calling feature.","assets/logo.png","https://github.com/iakshatbisht/Secure-Flash-Chat","Chatting Application",A.a(["Cloud Firestore","dart","Flutter","Firebase","Streams","android","FCM"],p),"Secure Flash Chat"),A.zw("A mini 2-level game built with Flutter. It uses the custom painter classes to draw various smooth curves. The player has to start from source and reach the last block (destination) to complete the level.But its not that easy, he has to skip or explode the obstacles in between to reach his destination.","assets/bomberman.jpg","https://github.com/iakshatbisht/ProviderExample-Bomberman-Game-","Provider State Management Example",A.a(["Flutter","android","dart","flare"],p),"Bomberman Game"),A.zw("Flutter application with the implementation of augmented reality. Integrates AR Core plugin for android with flutter. The application opens camera and after a tap, it detects surface and then shows all the 3D models of the plantes in our solar system.","assets/galaxy.png","https://github.com/iakshatbisht/Ar-Core-Example","AR Core Example",A.a(["Augmented Reality","Flutter","android","dart","AR Core"],p),"Flutter Galaxy"),A.zw("Flutter application to calculate the BMI of a person. It uses extensive UI layouts such as Sliders, etc. On providing the required parameters such as height, weight and gender; the application calculates the bmi based on the supplied values.","assets/bmi.png","https://github.com/iakshatbisht/BMI-Calculator","A flutter application",A.a(["Flutter","android","dart","native"],p),"BMI-Calculator"),A.zw("Flutter application that provides you live weather updates of a place provided by the user. It works on REST Api that fetches you the weather details of your current location (GPS coordinates) or any place provided by the user.","assets/akclima.png","https://github.com/iakshatbisht/AkClima","A Weather Forecast flutter application",A.a(["Flutter","android","dart","native","REST Api","Geolocation"],p),"Ak-Clima"),A.zw("A movie review flutter application. You can search and view various categories and details of a movie, TV show or a prominent personality. The application uses the The Movie DB (TMDb) REST api. You can also watch the trailer of any show or movie. It shows similar movies and also prominent works of a popular person.","assets/cinemaque.png","https://github.com/iakshatbisht/Cinemaque","IMDb Clone Application",A.a(["Flutter","REST api","dart"],p),"Cinemaque")],A.a9("t<Mb*>"))})
 q($,"aRg","aCF",()=>A.fd(1,1.2,A.a9("U*")))
